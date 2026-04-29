@@ -73,10 +73,10 @@ The workflow covers the complete data analytics lifecycle — from data loading 
 
 # 🚀 How to Run
 1. Clone the Repository
-git clone https://github.com/Srishh-ti/Supply-Chain-Analysis.git
-cd supply-chain-analytics
+git clone [https://github.com/Srishh-ti/Supply-Chain-Analysis.git]
+cd Supply-Chain-Analysis
 2. Install Dependencies
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
+`pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn`
 3. Run the Notebook
 jupyter notebook
 - Open the .ipynb file and run all cells
