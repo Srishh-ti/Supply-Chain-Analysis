@@ -30,46 +30,46 @@ The workflow covers the complete data analytics lifecycle — from data loading 
 - Ensured no duplicates or missing critical values
 3. Feature Engineering
 - Created key columns:
-  -Delay
-  -Is_Delayed (True/False)
-  -Order Processing Time
-  -Time-based features (Month, Day, Hour)
-  -Profitability flag
+  - Delay
+  - Is_Delayed (True/False)
+  - Order Processing Time
+  - Time-based features (Month, Day, Hour)
+  - Profitability flag
 4. Exploratory Data Analysis (EDA)
--Analyzed delay distribution
--Compared delay across:
-  -Regions
-  -Shipping modes
-  -Customer segments
-  -Departments
+- Analyzed delay distribution
+- Compared delay across:
+  - Regions
+  - Shipping modes
+  - Customer segments
+  - Departments
 - Identified high-risk areas and bottlenecks
 5. Root Cause Analysis
--Investigated reasons behind delays in worst-performing regions
--Identified patterns like:
--Standard shipping delays
--Department-specific issues
--Geographic challenges
+- Investigated reasons behind delays in worst-performing regions
+- Identified patterns like:
+- Standard shipping delays
+- Department-specific issues
+- Geographic challenges
 6. Machine Learning Model
--Built a Random Forest Classifier
--Applied:
-  -Frequency Encoding
-  -SMOTE for class imbalance
--Goal: Predict whether an order will be delayed
+- Built a Random Forest Classifier
+- Applied:
+  - Frequency Encoding
+  - SMOTE for class imbalance
+- Goal: Predict whether an order will be delayed
 
 # 📈 Dashboard / Presentation
--Created a structured report summarizing insights
--Designed a presentation using Gamma
--Included:
-  -Key KPIs (Delay %, Profit impact)
-  -Visual charts from EDA
-  -Business insights and recommendations
+- Created a structured report summarizing insights
+- Designed a presentation using Gamma
+- Included:
+  - Key KPIs (Delay %, Profit impact)
+  - Visual charts from EDA
+  - Business insights and recommendations
   
 # 📌 Key Results
--~54.7% orders were delayed
--Most delays fall within 1–4 days
--Standard Class shipping showed highest delay rates
--Certain regions and departments consistently underperformed
--Built a predictive model with strong accuracy to flag risky orders in advance
+- ~54.7% orders were delayed
+- Most delays fall within 1–4 days
+- Standard Class shipping showed highest delay rates
+- Certain regions and departments consistently underperformed
+- Built a predictive model with strong accuracy to flag risky orders in advance
 
 # 🚀 How to Run
 1. Clone the Repository
@@ -79,11 +79,11 @@ cd supply-chain-analytics
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
 3. Run the Notebook
 jupyter notebook
--Open the .ipynb file and run all cells
+- Open the .ipynb file and run all cells
 4. View Outputs
--EDA charts and insights in notebook
--Final report (PDF/Doc)
--Presentation (Gamma PPT)
+- EDA charts and insights in notebook
+- Final report (PDF/Doc)
+- Presentation (Gamma PPT)
 
 # 💡 Conclusion
 
