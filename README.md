@@ -49,7 +49,18 @@ The workflow covers the complete data analytics lifecycle — from data loading 
 - Standard shipping delays
 - Department-specific issues
 - Geographic challenges
-6. Machine Learning Model
+6. 📅 Time-Series Analysis
+- Analyzed delay patterns over time to detect trends and seasonality
+- Key Insights:
+  - Monthly Trends: Delay rates increase during peak shopping periods
+  - Day-wise Patterns: Weekend orders show higher delays due to processing lag
+  - Hourly Trends: Late-night and post-business-hour orders have higher delay probability
+  - Mid-week & morning orders show better on-time performance
+➡️ This analysis helps in:
+- Workforce planning
+- Setting accurate delivery expectations
+- Identifying peak-risk periods
+7. Machine Learning Model
 - Built a Random Forest Classifier
 - Applied:
   - Frequency Encoding
